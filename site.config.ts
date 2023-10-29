@@ -17,7 +17,7 @@ export default siteConfig({
   description: 'My personal blog in world wide web',
 
   // social usernames (optional)
-  twitter: 'sulsoltanoff',
+  twitter: 'sultansoltanoff',
   github: 'sulsoltanoff',
   linkedin: 'sulsoltanoff',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
