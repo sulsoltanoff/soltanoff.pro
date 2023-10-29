@@ -20,6 +20,8 @@ export default siteConfig({
   twitter: 'sultansoltanoff',
   github: 'sulsoltanoff',
   linkedin: 'sulsoltanoff',
+  telegram: 'sulsoltanoff',
+  email: 'sulsoltanoff@icloud.com',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
@@ -54,12 +56,20 @@ export default siteConfig({
   navigationStyle: 'custom',
   navigationLinks: [
     {
-      title: 'About',
-      pageId: '0c50a1253ebb42cca4182555d27af6ab'
+      title: 'Обо мне',
+      pageId: 'b9513666339f4ee1803c0347e7c8a6f6'
     },
     {
-      title: 'Contact',
-      pageId: '5000657397704016af199c10a455ebfe'
+      title: 'Цели',
+      pageId: 'ce7ca835c1c341cba3b1c8abe5b30d61'
+    },
+    {
+      title: 'Личная библиотека',
+      pageId: '14e6c97396284341b4524048f9ced3af'
+    },
+    {
+      title: 'Заметки',
+      pageId: '0772a9f408684b3a96c7012fa2db39fa'
     }
   ]
 })

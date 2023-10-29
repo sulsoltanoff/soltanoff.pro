@@ -5,6 +5,8 @@ import { FaGithub } from '@react-icons/all-files/fa/FaGithub'
 import { FaLinkedin } from '@react-icons/all-files/fa/FaLinkedin'
 import { FaMastodon } from '@react-icons/all-files/fa/FaMastodon'
 import { FaTwitter } from '@react-icons/all-files/fa/FaTwitter'
+import { FaTelegram } from '@react-icons/all-files/fa/FaTelegram'
+import { MdEmail } from '@react-icons/all-files/md/MdEmail'
 import { FaYoutube } from '@react-icons/all-files/fa/FaYoutube'
 import { FaZhihu } from '@react-icons/all-files/fa/FaZhihu'
 import { IoMoonSharp } from '@react-icons/all-files/io5/IoMoonSharp'
@@ -96,6 +98,30 @@ export const FooterImpl: React.FC = () => {
             rel='noopener noreferrer'
           >
             <FaGithub />
+          </a>
+        )}
+
+        {config.telegram && (
+          <a
+            className={styles.telegram}
+            href={`https://www.t.me/${config.telegram}`}
+            title={`Telegram ${config.telegram}`}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <FaTelegram />
+          </a>
+        )}
+
+        {config.email && (
+          <a
+            className={styles.email}
+            href={`mailto:${config.email}`}
+            title={`Email ${config.email}`}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <MdEmail />
           </a>
         )}
 
