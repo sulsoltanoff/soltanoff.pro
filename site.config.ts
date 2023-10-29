@@ -2,7 +2,7 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: 'b86bf1db3e994471979bab97aec83243',
+  rootNotionPageId: 'db3d6c2fd5e54baaafc103befd51b1be',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
@@ -52,24 +52,24 @@ export default siteConfig({
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
-  // navigationStyle: 'default'
-  navigationStyle: 'custom',
-  navigationLinks: [
-    {
-      title: 'Обо мне',
-      pageId: 'b9513666339f4ee1803c0347e7c8a6f6'
-    },
-    {
-      title: 'Цели',
-      pageId: 'ce7ca835c1c341cba3b1c8abe5b30d61'
-    },
-    {
-      title: 'Личная библиотека',
-      pageId: '14e6c97396284341b4524048f9ced3af'
-    },
-    {
-      title: 'Заметки',
-      pageId: '0772a9f408684b3a96c7012fa2db39fa'
-    }
-  ]
+  navigationStyle: 'default'
+  // navigationStyle: 'custom',
+  // navigationLinks: [
+  //   {
+  //     title: 'Обо мне',
+  //     pageId: 'b9513666339f4ee1803c0347e7c8a6f6'
+  //   },
+  //   {
+  //     title: 'Цели',
+  //     pageId: 'ce7ca835c1c341cba3b1c8abe5b30d61'
+  //   },
+  //   {
+  //     title: 'Личная библиотека',
+  //     pageId: '14e6c97396284341b4524048f9ced3af'
+  //   },
+  //   {
+  //     title: 'Заметки',
+  //     pageId: '0772a9f408684b3a96c7012fa2db39fa'
+  //   }
+  // ]
 })
